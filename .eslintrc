@@ -1,0 +1,24 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends":["eslint:recommended", "eslint-config-prettier"],
+  "rules": {
+    "strict": ["error", "never"],
+    // "no-extra-semi" : "off",
+    "block-scoped-var": "warn",
+    "no-constant-condition": "off"
+    // "no-unused-vars" : "warn",
+    // "no-unused-expressions" : "warn",
+    // // "quotes" : ["error","single"],
+    // "quotes": ["error", "double", { "allowTemplateLiterals": true }]
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
